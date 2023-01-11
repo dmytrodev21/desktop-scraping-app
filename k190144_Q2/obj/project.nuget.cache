@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "6FPrxjV9A1U3SY21VhDIjhW3UFaO2e2ioOHOrw+ZujgwRmvDF0Ao/1pfUI3hXwIK6OBoZDwdI5KqzY5sVNMYjg==",
+  "success": true,
+  "projectFilePath": "D:\\Assignment 1\\k190144_Q2\\k190144_Q2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\faisal.malik\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
+    "C:\\Users\\faisal.malik\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\faisal.malik\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
+    "C:\\Users\\faisal.malik\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\faisal.malik\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\faisal.malik\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\faisal.malik\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\faisal.malik\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

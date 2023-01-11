@@ -1,0 +1,41 @@
+﻿@{
+
+    ViewData["Title"] = "Home Page";
+}
+
+@model k190144_Q4.Models.CategoryViewModel;
+
+<form asp-controller="Home" asp-action="Index" method="post">
+    <div class="mb-3">
+        <label class="form-label">Select Category</label>
+        <select class="form-select" asp-items="Model.CategorySelectList" asp-for="SelectedCategory">
+            <option value="NoCategory">---Category---</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <button type="Submit" class="btn btn-primary">Submit</button>
+    </div>
+    
+</form>
+
+<form asp-controller="Home" asp-action="Index" method="post">
+    <div class="mb-3">
+        <button type="Submit" class="btn btn-primary">Refresh</button>
+    </div>
+</form>
+
+<p><b>All categories</b></p>
+
+<table>
+    <tr>
+        <th>Script</th>
+        <th>CurrentPrice</th>
+    </tr>
+    @foreach (var script in Model.scripts)
+    {
+        <tr>
+            <td>@script.Script</td>
+            <td>@script.CurrentPrice</td>
+        </tr>
+    }
+</table>
